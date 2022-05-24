@@ -52,10 +52,13 @@ public class Quartett {
 		}
 		return arr;
 	}
-	
+
 	public HashMap<Integer, Integer> getAnzahlMusikantenMitBeinAnzahl()
 	{
-		// TODO
+		HashMap<Integer, Integer> hashMap = new HashMap<>();
+		for (Musikant m : musikants){
+		hashMap.put(m.anzahlBeine, )
+		}
 		return null;
 	}
 	public void printLautStaerkeAbsteigend()
